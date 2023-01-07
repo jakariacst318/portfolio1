@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 * {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', sans-serif;
 }
-
+/* main{
+    width: 1200px;
+    margin: 0 auto;
+} */
 /* header section */
 .header-section {
     text-align: right;
@@ -18,7 +22,6 @@
     color: #FFFFFF;
     padding-left: 340px;
 }
-
 .header-description {
     font-weight: 400;
     font-size: 16px;
@@ -34,10 +37,31 @@
     border-radius: 5px;
     padding: 10px 11px;
 }
-
 /* 
+Nav section start
 
- */
+*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: right/;
+    /* margin: 50px 200px; */
+}
+
+ nav ul {
+    display: flex;
+    align-items: center;
+} 
+
+ nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: larger;
+    font-weight: 800;
+
+} 
+
 /* My failures section */
 .failure-section {
     display: flex;
@@ -112,11 +136,11 @@ ul li {
 /* Gradiant section styles */
 
 .gradiant-section {
-    margin: 100px 200px;
-    padding: 80px 30px;
-    background-image: url('images/gradient1.png');
+    margin: 100px 0px;
+    margin-left: 70px;
     border: none;
     border-radius: 10px;
+    padding-right: 100px;
 }
 
 .gradiant-title {
@@ -124,6 +148,7 @@ ul li {
     font-size: 23px;
     color: #FFFFFF;
     padding-right: 600px;
+    
 }
 
 .gridiant-button {
@@ -191,3 +216,5 @@ ul li {
     border-radius: 5px;
     padding: 10px 11px;
 }
+
+
